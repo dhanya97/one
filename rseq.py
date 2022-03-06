@@ -29,7 +29,7 @@ atexit.register(end_log)
 log("Start Program")
 
 print("Loading Address List Please Wait and Good Luck...")
-with open("eth.txt","r") as m: #Your ETH List of addresses
+with open("Et1add.txt","r") as m: #Your ETH List of addresses
     add = m.read().split()
 add= set(add)
 
